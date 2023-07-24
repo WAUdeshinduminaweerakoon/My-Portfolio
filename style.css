@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+
+body{
+    background:#4d4dff;
+
+}
+.header{
+    background-color:#6408ee;
+     padding : 30px;
+}
+.navbar{
+    float: right;
+    width: 20%;
+    height: 300px;
+    font-size: 20px;
+
+}
+.About{
+    background-color: black;
+    padding: 600px;
+}
+.Projects{
+    background-color: rgb(25, 253, 101);
+    padding: 600px;
+}
+.Blog{
+    background-color: rgb(135, 58, 17);
+    padding: 600px;
+}
+.footer{
+    background-color: aqua;
+    padding: 30px;
+}
