@@ -10,30 +10,53 @@ body{
     background:#4d4dff;
 
 }
-.header{
-    background-color:#6408ee;
-     padding : 30px;
+
+.her-row{
+    position: sticky;
+    top: 0;
+    
 }
+.header{
+   
+    background:linear-gradient(rgb(16, 5, 166)  10%, 40%, rgb(120, 8, 168) 90%);
+    height: 10vh;
+    
+}
+.logo{
+    height: 10vh;
+}
+
 .navbar{
     float: right;
-    width: 20%;
-    height: 300px;
+    margin: 2vh;
+    width: 40vh;
     font-size: 20px;
+    
 
 }
+a {
+    color: #2c0811;
+}
+
+
 .About{
-    background-color: black;
-    padding: 600px;
+    /* background-image: linear-gradient(to bottom right,  #130555, #3e21bf, #b82fc7, rgb(88, 4, 67)); */
+    background:linear-gradient(blue  10%, 40%, black 90%);
+    height: 90vh;
+    
+    
 }
 .Projects{
-    background-color: rgb(25, 253, 101);
-    padding: 600px;
+    background:linear-gradient(black  10%, 40%, blue 80%);
+    height: 90vh;
 }
 .Blog{
-    background-color: rgb(135, 58, 17);
-    padding: 600px;
+    background:linear-gradient(blue  10%, 40%, black 90%);
+    height: 90vh;
+    
 }
+
 .footer{
-    background-color: aqua;
+    background:linear-gradient(black  10%, 40%, blue 90%);
     padding: 30px;
 }
