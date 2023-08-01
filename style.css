@@ -8,6 +8,7 @@
 
 body{
     background:#4d4dff;
+    width: 100%;
 
 }
 
@@ -23,7 +24,10 @@ body{
     
 }
 .logo{
-    height: 10vh;
+    float: left;
+    margin: 2vh;
+    width: 40vh;
+    font-size: 20px;
 }
 
 .navbar{
@@ -37,6 +41,9 @@ body{
 a {
     color: #2c0811;
 }
+section{
+    width: auto;
+}
 
 
 .About{
@@ -44,8 +51,54 @@ a {
     background:linear-gradient(blue  10%, 40%, black 90%);
     height: 90vh;
     
+} 
+.About   h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight:1000 ;
     
 }
+.col-1{
+    width: 75%;
+    float: left;
+    
+}
+.dis{
+    padding: 8vh;
+}
+.dis .pa p {
+    font-size: large;
+    font-weight: 100;
+}
+
+
+.About .images1{
+    width: 20%;
+    float: left;
+}
+.About .images1 img{
+    padding: 10px;
+}
+.Logo{
+    margin: 20px;
+}
+.Logo img{
+
+    width: 45px;
+    padding: 3px;
+
+}
+
+
+    
+  
+  
+
+
+
+
+
+
 .Projects{
     background:linear-gradient(black  10%, 40%, blue 80%);
     height: 90vh;
@@ -60,3 +113,13 @@ a {
     background:linear-gradient(black  10%, 40%, blue 90%);
     padding: 30px;
 }
+@media screen and (max-width: 800px) {
+     .col-1{
+        width: 100%;
+     }
+     
+     .images1{
+        margin: 0 35vw 0 35vw;
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
