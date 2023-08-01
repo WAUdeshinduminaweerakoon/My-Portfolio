@@ -66,10 +66,7 @@ section{
 .dis{
     padding: 8vh;
 }
-.dis .pa p {
-    font-size: large;
-    font-weight: 100;
-}
+
 
 
 .About .images1{
@@ -79,11 +76,7 @@ section{
 .About .images1 img{
     padding: 10px;
 }
-.Logo{
-    margin: 20px;
-}
 .Logo img{
-
     width: 45px;
     padding: 3px;
 
