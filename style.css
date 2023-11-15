@@ -44,6 +44,10 @@ a {
 section{
     width: auto;
 }
+.Home{
+    background:linear-gradient(black  10%, 40%, blue 80%);
+    height: 90vh;
+}
 
 
 .About{
@@ -95,6 +99,9 @@ section{
 .Projects{
     background:linear-gradient(black  10%, 40%, blue 80%);
     height: 90vh;
+}
+.Projects h1{
+    color: #e8d6d6;
 }
 .Blog{
     background:linear-gradient(blue  10%, 40%, black 90%);
